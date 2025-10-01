@@ -16,13 +16,15 @@ import FaqsAccordion from "../components/FAQ";
 import AI_Prompts from "../components/kokonutui/ai-prompt";
 import Navbar from "../components/kokonutui/Navbar"; // Import Navbar baru
 import Footer from "../components/footer"; // Import Footer baru
-// import Spline from "@splinetool/react-spline";
-import Spline from '@splinetool/react-spline/next';
+
 const Toolsloop = dynamic(() => import("../components/Logo"), { ssr: false });
-// const Spline = dynamic(
-//   () => import("@splinetool/react-spline"),
-//   { ssr: false }
-// );
+import Spline from "@splinetool/react-spline";
+
+// Lalu wrap dengan dynamic di component
+const SplineComponent = dynamic(
+  () => Promise.resolve(Spline),
+  { ssr: false }
+);
 
 export default function ClientHome() {
   const aboutRef = useRef<HTMLDivElement>(null);
