@@ -47,7 +47,7 @@ const certifications = [
     subtitle: "Staff Divisi Acara Himpunan Mahasiswa Informatika",
     organization: "Himpunan Mahasiswa Informatika",
     date: "2022-2023",
-    image: "HimpunanHMIF.jpg",
+    image: "himpunanHMIF.jpg",
     featured: false,
     credentialUrl: "#",
     icon: <FaAward className="text-green-400" />,
