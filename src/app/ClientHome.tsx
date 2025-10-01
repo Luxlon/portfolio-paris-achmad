@@ -19,8 +19,7 @@ import Footer from "../components/footer"; // Import Footer baru
 
 const Toolsloop = dynamic(() => import("../components/Logo"), { ssr: false });
 const Spline = dynamic(
-  () =>
-    import("@splinetool/react-spline").then((mod) => mod.default || mod),
+  () => import("@splinetool/react-spline/next").then((mod) => mod.default),
   { ssr: false }
 );
 
