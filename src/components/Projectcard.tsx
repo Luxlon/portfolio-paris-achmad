@@ -75,7 +75,7 @@ export default function ProjectSection() {
               <Card className="p-6 bg-gradient-to-br from-neutral-900 to-neutral-950 text-white flex flex-col">
                 <div className="relative w-full h-44 mb-4 rounded-lg overflow-hidden bg-neutral-800">
                   <img
-                    src="/aquadex.png"
+                    src="/Aquadex.png"
                     alt="Aquadex"
                     className="w-full h-full object-cover"
                   />

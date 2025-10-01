@@ -20,7 +20,7 @@ export default function Datadiri() {
             {/* Card */}
             <div className="bg-neutral-900 p-6 rounded-2xl shadow-lg flex flex-col items-center text-center w-full">
               <img
-                src="/foto.png"
+                src="/Foto.png"
                 alt="Paris Achmad Fauzan"
                 className="w-40 h-40 rounded-xl object-cover mb-4"
               />
