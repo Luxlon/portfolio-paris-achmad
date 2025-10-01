@@ -11,7 +11,7 @@ export default function DownloadButton() {
       setLoading(false)
       // download file dari public/
       const link = document.createElement("a")
-      link.href = "/cv Paris Achmad Fauzan.pdf"
+      link.href = "/CV Paris Achmad Fauzan.pdf"
       link.download = "CV_Paris_Achmad_Fauzan.pdf"
       link.click()
     }, 2000)
